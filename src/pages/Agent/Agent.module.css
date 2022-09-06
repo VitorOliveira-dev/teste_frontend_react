@@ -1,0 +1,166 @@
+.agentTitle {
+    width: 100%;
+    text-align: center;
+}
+
+.agentTitle h1 {
+    color: white;
+}
+
+.agentImage {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    max-width: 1200px;
+    height: 280px;
+    margin: 0 auto;
+    background-color: #1E1E1E;
+    margin-bottom: 15px;
+
+}
+
+.agentImage img {
+    width: fit-content;
+    max-width: 350px;
+}
+
+.agentInfoContainer {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.agentInfoWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.agentRole {
+    display: flex;
+    flex-direction: row;
+    background-color: #FD4556;
+}
+
+.roleContent {
+    color: #FFF;
+    margin-left: 10px;
+}
+
+.roleContent h2 {
+    font-size: 16px;
+}
+
+.roleDescription {
+    font-size: 12px;
+    text-justify: distribute;
+}
+
+.roleIcon {
+    height: 100%;
+}
+
+.roleIcon img {
+    margin: 10px;
+    height: fit-content;
+    max-height: 80px;
+}
+
+.agentDescriptionContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.agentBackgroundImage {
+    width: 30%;
+    height: 160px;
+}
+
+.agentBackgroundImage img {
+    height: 160px;
+}
+
+.agentDescription {
+    color: #FFF;
+    font-size: 12px;
+    margin-left: 10px;
+
+}
+
+.agentSkillsContainer {
+    text-align: center;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.agentSkillsCardsContainer {
+    display: flex;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.agentSkillCard {
+    width: 100%;
+    height: 100%;
+    background-color: #1E1E1E;
+}
+
+.agentSkillCardImage {
+    padding: 5px;
+}
+
+.agentSkillCardImage img {
+    height: fit-content;
+    width: 100%;
+    max-height: 100px;
+}
+
+.agentSkillCard {
+    width: 100%;
+    height: 100%;
+    background-color: #1E1E1E;
+}
+
+.agentSkillButton {
+    background-color: transparent;
+    border: none;
+}
+
+.agentSkillDescriptionContainer {
+    margin-top: 10px;
+    background-color: #1E1E1E;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.agentSkillDescription {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.skillsTitle h2 {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.skillsTitle p {
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+
+@media only screen and (min-width: 800px) {
+
+    .agentInfoWrapper {
+        flex-direction: row-reverse;
+        column-gap: 50px;
+    }
+
+    .agentRole {
+        width: 50%;
+    }
+
+    .agentDescriptionContainer{
+        width: 50%;
+    }
+
+}

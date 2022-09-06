@@ -1,0 +1,37 @@
+.pagination {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.page {
+    background-color: #FD4556;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.page:hover{
+    background-color: #2B2A29 !important;
+    -webkit-transition: background-color .2s ease-in;
+    transition: background-color .2s ease-in;
+}
+
+ul button{
+    color: #FFF;
+    border: none;
+    background-color: transparent;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+}

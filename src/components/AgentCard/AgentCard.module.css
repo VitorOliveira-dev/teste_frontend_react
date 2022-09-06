@@ -1,0 +1,88 @@
+.agentCard {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 95%;
+    height: 140px;
+    background-color: #1E1E1E;
+}
+
+.agentImage {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 40%;
+}
+
+.agentImage img {
+    max-height: 140px;
+    max-width: 160px;
+}
+
+.agentContent {
+    width: 65%;
+    direction: ltr;
+    padding-left: 10px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.agentWrapper {
+    height: 100%;
+    max-width: 300px;
+}
+
+.agentInfo {
+    height: 35%;
+}
+
+.agentTitle {
+    margin: 0px 0px 5px 0px;
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.agentSubtitle {
+    font-size: 16px;
+    margin: 0px
+}
+
+.agentButton {
+    margin: 0px 0px 5px 0px;
+    height: 100%;
+}
+
+.detailsButton:hover {
+    background-color: #2B2A29 !important;
+    -webkit-transition: background-color .2s ease-in;
+    transition: background-color .2s ease-in;
+    cursor: pointer;
+}
+
+.detailsButton {
+    margin-top: 5px;
+    width: 95%;
+    height: 45%;
+    max-width: 300px;
+    background-color: #FD4556;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+    .agentContent {
+        direction: rtl;
+    }
+
+    .agentInfo {
+        direction: ltr;
+        text-indent: 15px;
+    }
+
+    .agentButton {
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,67 @@
+@media only screen and (max-width: 480px) {
+
+    .containerGrid {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media only screen and (min-width: 900px) {
+
+    .containerGrid {
+        grid-template-columns: auto auto;
+    }
+
+    #mapsCard {
+        grid-column: span 2;
+    }
+}
+
+
+.containerGrid {
+    display: grid;
+    grid-row-gap: 10px;
+    column-gap: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.card a{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+}
+
+.card:hover{
+    background-color: #2B2A29 !important;
+    -webkit-transition: background-color .2s ease-in;
+    transition: background-color .2s ease-in;
+}
+
+.cardTitle {
+    font-weight: bold;
+    text-indent: 15px;
+    background-color: transparent;
+    font-size: 20px;
+    color:#ffff
+}
+
+#agentsCard {
+    background-color: #FD4556;
+}
+
+#weaponsCard {
+    background-color: #BD3944;
+}
+
+#mapsCard {
+    background-color: #53212B;
+}

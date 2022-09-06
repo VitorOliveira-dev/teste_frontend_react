@@ -1,0 +1,92 @@
+.weaponTitle {
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+}
+
+.weaponImage {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 200px;
+    background-color: #1E1E1E;
+    margin: 0 auto;
+}
+
+.weaponImage img {
+    margin-top: 60px;
+    width: 100%;
+    max-height: 100px;
+    max-width: fit-content;
+    line-height: 200px;
+}
+
+.weaponStatsTitleContainer{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#mainTitle {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.weaponStatsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.weaponDamageContainer {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.weaponDamageCard {
+    background-color: #FD4556;
+    height: 90px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+.subtitle {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.label {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+.weaponInfoContainer {
+    width: 60%;
+}
+
+.weaponGameplayCard {
+    background-color: #1E1E1E;
+    padding: 15px;
+}
+
+.weaponShopContainer {
+    margin-top: 30px;
+}
+
+.weaponShopCard {
+    background-color: #1E1E1E;
+    padding: 15px;
+}

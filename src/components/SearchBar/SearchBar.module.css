@@ -1,0 +1,75 @@
+@media only screen and (max-width: 480px) {
+
+    .searchBarContainer {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .searchBar[type=text] {
+        background-color: #2B2A29;
+        color: #c6c6c6;
+        height: 50px;
+        width: 100%;
+        border: none;
+        border-radius: 8px 8px 0px 0px;
+        font-weight: bold;
+        text-indent: 10px;
+
+    }
+
+    .searchBar:placeholder-shown {
+        border-radius: 8px;
+    }
+
+    .dropdown {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+
+    .dropdown:empty {
+        border: none;
+    }
+
+}
+
+.searchBarContainer {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.searchBar[type=text] {
+    background-color: #2B2A29;
+    color: #c6c6c6;
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 8px 8px 0px 0px;
+    font-weight: bold;
+    text-indent: 10px;
+
+}
+
+.searchBar:placeholder-shown {
+    border-radius: 8px;
+}
+
+.dropdown {
+    overflow: auto;
+    width: 80%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 0;
+}
+
+.dropdown:empty {
+    border: none;
+}

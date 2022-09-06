@@ -1,0 +1,15 @@
+    .banner img {
+        width: 100%;
+    }
+
+    @media only screen and (min-width: 1281px) {
+        .banner img {
+            height: 700px;
+        }
+    }
+
+    @media only screen and (min-width: 1025px) {
+        .banner img {
+            height: 600px;
+        }
+    }

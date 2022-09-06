@@ -1,0 +1,23 @@
+.defaultButtonContainer{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .defaultButton{
+    margin-top: 5px;
+    width: 120px;
+    height: 45px;
+    background-color: #FD4556;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .defaultButton:hover{
+    background-color: #2B2A29 !important;
+    -webkit-transition: background-color .2s ease-in;
+    transition: background-color .2s ease-in;
+    cursor: pointer;
+}
